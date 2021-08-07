@@ -9,11 +9,13 @@ import {
 const Input: React.FC = () => (
   <Wrapper>
     <Agrupacion>
-      <legend>Formulario</legend>
+      <legend>Tiempo trabajado</legend>
       <Formulario>
-        <label>Horas</label>
+        <label>Horas ordinarias</label>
         <EntradaDatos type='number' name='horas' />
-        <BotonSubmit>Enviar</BotonSubmit>
+        <label>Días trabajados</label>
+        <EntradaDatos type='number' name='horas' />
+        <BotonSubmit>Calcular</BotonSubmit>
       </Formulario>
     </Agrupacion>
   </Wrapper>

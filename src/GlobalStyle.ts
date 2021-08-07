@@ -10,7 +10,9 @@ export const GlobalStyle = createGlobalStyle`
     --lightGrey: #eee;
     --medGrey: #353535; 
     --darkGrey: #1c1c1c;
+    --redForm: #ff5b5b;
     --fontSuperBig: 2.5rem;
+    --fontTitle: 1.9rem;
     --fontBig: 1.5rem;
     --fontMed: 1.2rem;
     --fontSmall: 1rem;
@@ -27,7 +29,7 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #333;
+    background: var(--medGrey);
     color: #eee;
     h1 {
       font-size: 2rem;
