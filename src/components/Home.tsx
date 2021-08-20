@@ -1,10 +1,10 @@
 import Header from './Header';
-import Entrada from './Entrada';
+import Formulario from './Formulario';
 
 const Home: React.FC = () => (
   <>
     <Header />
-    <Entrada />
+    <Formulario />
   </>
 );
 
